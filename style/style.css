@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    color: rgb(87, 49, 6);
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+.cabecalho{
+    background-color: #75564d;
+    text-align: center;
+    padding: 20px 0 0;
+}
+
+
+.cabecalho-menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+        background-color:rgb(78, 38, 6);
+        padding: 5px 0;
+}
+
+.cabecalho-menu-img{
+    width: 100px;
+    height: auto;
+}
+
+.menu a{
+    padding: 50px;
+    text-decoration: none;
+    color: #75564d;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    background-color: antiquewhite;
+    color: #75564d;
+    border-radius: 80px;
+    transition: 350ms ease;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.secoes{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.escrita{
+    color: #75564d;
+    font-size: 20px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    accent-color: #ccd595;
+}
+
+input[type="text"], input[type="passaword"],input[type="date"], input[type="email"]{
+width: 100%;
+padding: 8px;
+border: solid 2px #ccd595;
+border-radius: 5px;
+outline: none;
+
+}
+
+input::placeholder{
+    color:#75564d;
+}
+.suspenso{
+    cursor: pointer;
+    width: 50%;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+
+.figure.img{
+    width: 200px;
+
+}
+
+.rodape{
+    background-color: #75564d;
+    color: #0d0c0c;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-link{
+    color:  rgb(94, 50, 24);
+    text-decoration: none;
+ 
+}
+.footer-link:hover{
+    text-decoration: underline;
+}

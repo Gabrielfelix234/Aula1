@@ -1,0 +1,26 @@
+@import url(style.css);
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+thead{
+    background-color: antiquewhite;
+      color:  rgb(94, 50, 24);
+      padding: 15px;
+}
+td{
+    color: rgb(86, 54, 12);
+    text-align: center;
+    padding: 15px;
+}
+tfoot{
+    background-color: rgb(83, 54, 17);
+    color: antiquewhite;
+}
+
+tfoot td{
+     color: antiquewhite;
+}
